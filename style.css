@@ -130,3 +130,58 @@ body {
     color: var(--accent);
     border: 2px solid var(--accent);
 }
+
+.nav-link:hover {
+    color: var(--darker-bg);
+    background-color: var(--accent);
+    transform: translateY(-2px); 
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent);
+}
+
+.bio-photo:hover {
+    transform: scale(1.03);
+}
+
+.skill-icon-container:hover .skill-icon {
+    transform: scale(1.2);
+}
+
+.skill-icon-container::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--darker-bg);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    border: 1px solid var(--accent);
+}
+
+.skill-icon-container:hover::after {
+    opacity: 1;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
