@@ -41,7 +41,17 @@ body {
     transition: transform 0.3s ease;
 }
 
+.skill-icon-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
 
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease;
+}
 
 
 /* .footer {
