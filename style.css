@@ -247,3 +247,9 @@ body {
         height: 120px;
     }
 }
+
+.nav-link.active {
+    color: var(--darker-bg);
+    background-color: var(--accent);
+    transform: translateY(-2px); 
+}
