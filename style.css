@@ -24,6 +24,26 @@ body {
     border-radius: 4px;
 }
 
-.footer {
-
+.section-title {
+    color: var(--accent);
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+.bio-photo {
+    border: 3px solid var(--accent);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+/* .footer {
+
+} */
