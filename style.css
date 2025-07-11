@@ -113,6 +113,20 @@ body {
     border-bottom: 1px solid var(--accent);
 }
 
-/* .footer {
+.footer {
+    background-color: var(--darker-bg);
+    border-top: 2px solid var(--accent);
+}
 
-} */
+.btn-cv {
+    background-color: var(--accent);
+    color: var(--darker-bg);
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-cv:hover {
+    background-color: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+}
