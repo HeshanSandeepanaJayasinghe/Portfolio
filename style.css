@@ -12,9 +12,18 @@ body {
 }
 
 .header {
+    background-color: var(--darker-bg);
+    border-bottom: 2px solid var(--accent);
+}
 
+.nav-link {
+    color: var(--text);
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 8px 15px;
+    border-radius: 4px;
 }
 
 .footer {
-    
+
 }
